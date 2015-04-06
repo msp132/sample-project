@@ -1,1 +1,9 @@
 language: java
+
+deploy:
+  provider: releases
+  api_key: 83d6c46c4f15c7f5a35da971b6ca2f78870963bb
+  file: build/lib/sample-project.war
+  skip_cleanup: true
+  on:
+    tags: true
