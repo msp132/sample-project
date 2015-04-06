@@ -1,9 +1,8 @@
 language: java
-
 deploy:
   provider: releases
-  api_key: 83d6c46c4f15c7f5a35da971b6ca2f78870963bb
+  api_key:
+    secure: OiLZg53dLTGAetc/q4oc/PgG++b9jDKr4rrbFGQlOKGd/zvY2OeosQrw/E1KSJEoPDlEhZMa5k21lvN3JlyYrranXOmlc5Muo2O8nGPrRKxJNSDCB4J1C3O59IQbCAM7N/6bWMsQ94Kfwj6m0QkIBkAQyBMQPzXCbtc9m5zhqok=
   file: build/lib/sample-project.war
-  skip_cleanup: true
   on:
-    tags: true
+    repo: msp132/sample-project
