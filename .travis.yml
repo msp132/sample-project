@@ -3,7 +3,7 @@ deploy:
   provider: releases
   api_key:
     secure: OiLZg53dLTGAetc/q4oc/PgG++b9jDKr4rrbFGQlOKGd/zvY2OeosQrw/E1KSJEoPDlEhZMa5k21lvN3JlyYrranXOmlc5Muo2O8nGPrRKxJNSDCB4J1C3O59IQbCAM7N/6bWMsQ94Kfwj6m0QkIBkAQyBMQPzXCbtc9m5zhqok=
-  file: sample-project.war
+  file: build/libs/sample-project.war
   on:
     repo: msp132/sample-project
     all_branches: true
