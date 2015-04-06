@@ -6,3 +6,7 @@ deploy:
   file: build/lib/sample-project.war
   on:
     repo: msp132/sample-project
+  branches:
+    only:
+      - master
+
